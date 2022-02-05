@@ -43,6 +43,6 @@ describe('useLogin specs', () => {
 
     // Assert
     expect(loginStub).toHaveBeenCalled();
-    expect(result.current.user).toEqual(adminUser);
+    expect(result.current.user).toEqual(null);
   });
 });
